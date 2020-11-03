@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Bianca's Coding Journey</title>
+	</head>
+	<body>
+		<header>
+			<h1>Coding Journey!</h1>
+			<p>Hello World! My name is Bianca and this is my Coding Journey. Here I will be showing my process as I learn how to code. This website was created in HTML and CSS, you can follow the process of its creation in the section of Week 5</p>
+		</header>
+
+		<main>
+			<h2>Week 1: <br>Introduction to Processing</h2>
+			<p>In this week we were introduced to a software Processing. Since we were not so familiar with the software, Alice and I did small challenges for each other.<br>
+			Alice challenged me to draw a sun. And I challenged her to draw a star.The images show how I completed the challenge </p>
+			<img src="img/img1.jpg">
+			<img src="img/img2.jpg">
+			<p>Useful resource:<a href="https://processing.org/reference/" target="_blank">Processing Reference</a></p>
+
+			<h2>Pong Game</h2>
+			<p> After completing the challenge I decided to try to create a pong game. Whenever I needed to learn about a new funcion, I used the processing reference page or if I wasn't able to find exactly what I wanted I send an email to Mr.Zanchetta and he guided me through the solution.<br><br>
+			I had a lot of trouble discovering how to write a function that says if something happens AND another thing happens, then do something. Mr.Zanchetta helped my by showing the write way to write the code:<br><br>
+			if ((____) && (____)){<br>
+			______;} </p>
+			<img src="img/img3.jpg">
+			<img src="img/img4.jpg">
+			<p>Something I am still not sure how to do is move the ball randomly through the screen. I could make the ball move but not randomly. The code I am using to make it move is: <br><br>
+			if (touchedge==true){<br>
+			circle X=circle X+3; }<br>
+			<br>
+			if (touchedge==false){<br>
+			circle X=circle X-3; }<br></p>
+			<img src="img/img5.jpg">
+
+			<h2>Week 2: <br>2D shapes Overlapping </h2>
+			<p>This week I started to try to find a new way to know when a circle is overlapping another. The idea consists in measuring the distance between both circles and checking if it is bigger, equal or smaller than the sum of both ratios.<br>
+			If the distance is bigger, the object is not overlapping. If the distance is smaller or equal, the object is overlapping the other. <br>
+			I am still trying to figure it out how to transform this in lines of code. </p>
+			<img src="img/img6.jpg">
+			<p>I was able to figure it out how to find the radius of a circle in processing. The radius is the circle's extent - the third information inside a circle funcion - divided by two. <br>
+			<br>
+			float extent = 40;<br>
+			float radius = extent/2;<br>
+			<br>
+			circle(x, y, extent);<br>
+			// the radius of this circle is 40/2 (20)</p>
+			<img src="img/img7.jpg">
+
+			<h2>Challenge #1</h2>
+			<p>Today's challenge was to make a code that depending in the mouse position, the color of the screen would change. <br>
+			The picture shows my <b>planning</b>b> before start writing my code.</p>
+			<img src="img/img8.jpg">
+			<p>In the planing, I used numbers to determinate where the line would be. However, in my codes, I decided to change to the variables <b>width</b> and <b>height</b> so if for any reason I needed to change the size of the screen, the codes wouldn't change.</p>
+			<p>This is a <a href="https://drive.google.com/file/d/1abZ3mV10aQvSWJdB2HUClDAKsFw50bI8/view?usp=sharing" target="_blan">video</a> of my codes working</p>
+			<img src="img/img9.jpg">
+
+			<h2>Week 3: <br>Paint?</h2>
+			<p>I bet you’ve heard about <b>Paint</b> before, in case you didn’t, Paint is a microsoft app used for <b>drawing</b>. Today I decided to see if I could make my own paint. <br>
+			This is a <a href="https://drive.google.com/file/d/1f8ipDYw0spynnjCKsnlinS-tzgCzWter/view?usp=sharing" target="_blan">video</a> of me <b>explaining</b> my codes.</p>
+			<img src="img/img10.jpg">
+			<img src="img/img11.jpg">
+			<img src="img/img12.jpg">
+			<p>These are some ✨ masterpieces ✨ made by my sister Giulia da Vinci in the first version. Her feedback was to add more colors, an eraser and a smaller brush “for making the outlines”.</p>
+
+			<h2>Paint? Second Version</h2>
+			<p>Unfortunately, Giulia was asleep when I finish the second version, but I did a test myself and I am very proud of my work. I will still make some improvements but I had a lot of fun coding this.</p>
+			<img src="img/img13.jpg">
+			<img src="img/img14.jpg">
+			<p><b>Feedback:</b><br>
+			"I was wondering if you could create a <b>slider</b> to choose the thickness of the lines, so the user could have a <b>bigger range</b> (not just the specified number, but all the numbers between them.)"<br>
+			"Bi, I did not know the function to set the position where the processing window will be created in the computer =) Tks for teaching me that =)"<br>"It was really important your first text with a real user (Giulia) because the suggestions she gave to you improves the <b>usability</b> of your Paint tool. Great job of releasing a first version and improving it based on user's feedback."<br>
+			"How could you give more <b>freedom</b> to the user choose his/her colours? Maybe a system where we, users, could <b>select</b> the amount of Red, Green and Blue ;)"</p>
+			<h2>Paint? Planing</h2>
+			<p>The new version will contain the colors in the left as default, it's already there if the user doesn't want to make their own colors. 
+			The slider below the colors is for choosing the stroke weight. If you move to the left, the stroke weight is smaller and if you move to the right, is bigger.<br>
+			In the right there is a RGB selector, you can click in the arrows to increase or decrease the amount of RGB. The circle next to it is for showing the current color.</p>
+			<img src="img/img15.jpg">
+			<p>I was able to make the RGB selector but one problem I'm having is: there is no limit, the numbers are passing 255.<br>
+			I am struggling to figure out how to make a slider. I will do some research and try again. </p>
+			<img src="img/img16.jpg">
+			<p><b>Feedback: </b><br>
+			“owwwwww, the design for the RGB buttons are really cool and allow the user know what is <b>behind the colour system</b>. It is useful, easy to use and also teaches people about <b>how the RGB system works</b>.”<br>
+			“you can control that with the proper code. If the user continues clicking, IF the number is <b>higher than 255</b>, make the number <b>stay at 255”</b></p>
+
+			<h2>Week 4:<br>
+			RoboHack</h2>
+			<p>This week I took a break from making the paint tool because I was working on my project for RoboHack. I make a “website”/presentation in Processing to sell my product.<br>
+			Here is the <a href="https://drive.google.com/file/d/1I5J3nTuD0NNQukneP4wDSAREkL5VL6xC/view?usp=sharing" target="_blan">video</a> of me explaining my codes.</p>
+
+			<h2>Week 5:<br>
+			Introduction to HTML and CSS</h2>
+			</main>
+
+		<footer>
+			<p><b>Bianca's Coding Journey</p>
+		</footer>
+	</body>
+</html>

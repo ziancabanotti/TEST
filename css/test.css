@@ -2,20 +2,3 @@ body{
 	background-color: cyan;
 }
 
-h1{
-	font-size: 30px;
-	color: blue;
-}
-h2{
-	font-size: 20px;
-	color: red; 
-}
-.Big{
-	font-size: 60px;
-}
-.uppercase{
-	text-transform: uppercase;
-}
-h1 span{
-	color: violet;
-}
